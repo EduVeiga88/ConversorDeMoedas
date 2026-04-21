@@ -1,15 +1,17 @@
 # 💱 Currency Converter App
 
 ## 📱 About
-This is an Android application that allows users to convert currencies in real time using an external API.
+This Android application allows users to convert currencies in real time using an external API.
 
-The project was built to practice modern Android development using clean architecture principles and proper state management.
+The project was built as part of my learning journey in Android development, focusing on applying clean architecture principles and modern development tools.
 
 ---
 
 ## 🏗️ Architecture
 - MVVM (Model-View-ViewModel)
-- Clean Architecture (Domain, Data, Presentation layers)
+- Clean Architecture (Data, Domain, Presentation)
+
+The project is structured to ensure separation of concerns, scalability and maintainability.
 
 ---
 
@@ -17,7 +19,7 @@ The project was built to practice modern Android development using clean archite
 - Kotlin
 - Jetpack Compose
 - Hilt (Dependency Injection)
-- Ktor (API requests)
+- Ktor (HTTP Client)
 - ViewModel
 - UI State
 
@@ -25,28 +27,30 @@ The project was built to practice modern Android development using clean archite
 
 ## ✨ Features
 - Real-time currency conversion
-- API integration
+- API integration using Ktor
 - State management with UI State
-- Clean and modular architecture
+- Modular and scalable architecture
 
 ---
 
 ## 📸 Screenshots
 
-![Home](screenshots/home.jpg)
-![Conversion](screenshots/conversion.jpg)
+<p align="center">
+  <img src="screenshots/home.jpg" width="250"/>
+  <img src="screenshots/conversion.jpg" width="250"/>
+</p>
 
 ---
 
 ## 🧠 What I Learned
 - Structuring Android apps using Clean Architecture
 - Managing UI state with ViewModel
-- Making network requests with Ktor
-- Dependency injection with Hilt
+- Consuming APIs with Ktor
+- Implementing dependency injection with Hilt
 
 ---
 
 ## 🚀 Future Improvements
-- Improve UI/UX
+- Improve UI/UX design
 - Add error handling and loading states
-- Add unit tests
+- Implement unit tests
